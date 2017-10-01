@@ -4,7 +4,9 @@
     Author     : Estudiante
 --%>
 
+<%@page import="clase.tipo"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,6 +19,11 @@
             String var2="abc";
             //VARIABLE DE SESION
             session.setAttribute("svar1", var1);
+            //creamos dos instancia
+           tipo o1 = new tipo (1,"ejemplo");
+           tipo o2 = new tipo ();
+           session.setAttribute("sobjeto",o1);
+           application.setAttribute("aobjeto", o2);
            
       %>
       Valor recibido : <%=var1%><br>
