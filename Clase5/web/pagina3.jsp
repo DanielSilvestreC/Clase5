@@ -19,13 +19,16 @@
             String var1= (String)session.getAttribute("svar1");
             String var2="xyz";
             tipo o = null;
+            tipo x = null;
              o = (tipo) session.getAttribute("sobjeto1");
+             x = (tipo) application.getAttribute("aobjeto");
              
            
       %>
       Valor recibido : <%=var1%><br>
       Valor 2 :<%=var2%><br>
       Valor de Objeto: <%=o.getNombre()%>
+      valor de objeto (application)<%=x.getNombre()%>
       
     </body>
 </html>

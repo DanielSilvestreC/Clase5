@@ -14,7 +14,7 @@
     <body>
           <form action="pagina2.jsp" method="post">
             ingrese valor:<input type="text" id="txtValor" name="txtValor">
-            <input type="sumit" value="Enviar">
+                            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>

@@ -22,7 +22,7 @@
             //creamos dos instancia
            tipo o1 = new tipo (1,"ejemplo");
            tipo o2 = new tipo ();
-           session.setAttribute("sobjeto",o1);
+           session.setAttribute("sobjeto1",o1);
            application.setAttribute("aobjeto", o2);
            
       %>
