@@ -13,7 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <c:set var="var1" value="5"/>
+        <c:set var="var1" value="10"/>
         <c:set var="var2" value="7"/>
         Variable 1: ${var1}<br>
         Variable 2: ${var2}
@@ -35,5 +35,7 @@
                 <c:forEach begin="1" end="10" step="1" var="x">
                     ${x}<br>
                 </c:forEach>
+                    
+       
     </body>
 </html>
